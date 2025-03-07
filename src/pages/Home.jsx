@@ -1,7 +1,15 @@
 import React from "react";
+import Section from "../components/Home/Section.jsx";
 import Contend from '../components/Contend.jsx'
 import { useState, useEffect } from "react";
+import Education from "../components/Education.jsx";
 import logos from "../components/Home/Logo/logos.jpg";
+import Animation from "../components/Animation.jsx";
+import Servis from "../components/Servis.jsx";
+import Footer from "./Footer.jsx";
+import Login from "../pages/Login.jsx";
+import Reference from "../components/Reference.jsx";
+import Porfoliyo from "../components/Porfoliyo.jsx";
 
 function Home() {
   const texts = ["Developer", "Designer", "Freelancer", "Creator", "Innovator"];
@@ -54,6 +62,33 @@ function Home() {
       </div>
       <div className="flex items-center justify-center">
       <Contend/>
+      </div>
+      <div className="flex items-center justify-center">
+      <Education/>
+      </div>
+      <div className="flex items-center justify-center">
+         <Section/>
+      </div>
+      <div className="flex items-center justify-center">
+         <Animation/>
+      </div>
+      <div className="flex items-center justify-center">
+         <Servis/>
+      </div>
+      <div className="flex items-center justify-center">
+         <Porfoliyo/>
+      </div>
+      <div className="flex items-center justify-center">
+         <Reference/>
+      </div>
+
+      <div className="flex items-center justify-center">
+         <Login/>
+      </div>
+
+      {/* Footer */}
+      <div className="flex items-center justify-center">
+         <Footer/>
       </div>
     </div>
   );
