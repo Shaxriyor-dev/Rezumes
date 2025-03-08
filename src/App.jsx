@@ -6,6 +6,7 @@ import Section from '../src/components/Home/Section.jsx';
 import { Route , Routes } from "react-router-dom";
 import About from '../src/components/Home/About.jsx';
 import Notfound from '../src/components/Home/NotFound.jsx';
+import SetAbout from "./pages/SetAbout.jsx";
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
                <Route path="/" element={<Home/>}></Route> 
                <Route path="/login" element={<Login/>}></Route> 
                <Route path="/section" element={<Section/>}></Route> 
+               <Route path="/setabout" element={<SetAbout/>}></Route> 
                <Route path="*" element={<Notfound/>}></Route> 
          </Routes>
       </motion.div>

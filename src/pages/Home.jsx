@@ -1,17 +1,30 @@
 import React from "react";
-import Section from "../components/Home/Section.jsx";
-import Contend from '../components/Contend.jsx'
+import Footer from "./Footer.jsx";
+import Login from "../pages/Login.jsx";
 import { useState, useEffect } from "react";
+import Servis from "../components/Servis.jsx";
+import Contend from '../components/Contend.jsx'
+import Reference from "../components/Reference.jsx";
+import Porfoliyo from "../components/Porfoliyo.jsx";
+import Section from "../components/Home/Section.jsx";
 import Education from "../components/Education.jsx";
 import logos from "../components/Home/Logo/logos.jpg";
 import Animation from "../components/Animation.jsx";
-import Servis from "../components/Servis.jsx";
-import Footer from "./Footer.jsx";
-import Login from "../pages/Login.jsx";
-import Reference from "../components/Reference.jsx";
-import Porfoliyo from "../components/Porfoliyo.jsx";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Home() {
+  useEffect(() => {
+    toast.info("Saytga xush kelibsiz!", {
+      position: "top-right", 
+      autoClose: 5000, 
+      hideProgressBar: false, 
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+    });
+  }, []);
+
   const texts = ["Developer", "Designer", "Freelancer", "Creator", "Innovator"];
 
   const [index, setIndex] = useState(0);
@@ -41,6 +54,7 @@ function Home() {
 
   return (
     <div>
+      <ToastContainer />
       <div className="flex items-center   gap-20  bg-[#121212] w-[910px] px-19 rounded-b-lg   h-[650px] ">
         <div className="flex items-center justify-center h-[280px] w-[280px] rounded-[50%] bg-blue-600">
           <div className="flex items-center justify-center h-[260px] w-[260px] rounded-[50%] bg-orange-300 mt-8 mr-7">
