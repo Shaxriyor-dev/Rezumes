@@ -1,4 +1,4 @@
-import React from "react";
+import React, { lazy } from "react";
 import Footer from "./Footer.jsx";
 import Login from "../pages/Login.jsx";
 import { useState, useEffect } from "react";
@@ -12,6 +12,8 @@ import logos from "../components/Home/Logo/logos.jpg";
 import Animation from "../components/Animation.jsx";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+
+
 
 function Home() {
   useEffect(() => {
