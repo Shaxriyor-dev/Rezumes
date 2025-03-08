@@ -52,7 +52,7 @@ function About() {
               href="https://maps.app.goo.gl/F651z3dyPCTomW1Z8"
               className="font-[Ubuntu] text-lg text-gray-200"
             >
-              Uzbekistan in Andijon street 45
+              Uzbekistan ,  Andijon 45
             </a>
           </div>
         </div>
