@@ -29,6 +29,7 @@ function App() {
         transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
         className="w-[920px] h-[650px]  text-white overflow-y-scroll  rounded-r-xl"
       >
+         
          <Routes>
                <Route path="/" element={<Home/>}></Route> 
                <Route path="/login" element={<Login/>}></Route> 
