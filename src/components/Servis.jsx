@@ -11,7 +11,7 @@ function Servis() {
         awareness, driving web traffic, connecting with customers and growing
         overall sales.
       </p>
-      <div className="flex items-center h-[230px] mt-10 rounded-[5px] gap-9 bg-neutral-950">
+      <div className="flex items-center h-[230px] mt-10 rounded-[5px] gap-9 bg-neutral-950 hover:inset-shadow-sm inset-shadow-blue-700 transition-discrete">
         <div className="h-[70px] w-1 rounded-2xl bg-blue-600"></div>
         <div>
           <p className=" font-[Ubuntu] text-3xl font-[700] p-3">
@@ -28,7 +28,7 @@ function Servis() {
            </div>
         </div>
       </div>
-      <div className="flex items-center h-[230px] mt-10 rounded-[5px] gap-9 bg-neutral-950">
+      <div className="flex items-center h-[230px] mt-10 rounded-[5px] gap-9 bg-neutral-950 hover:inset-shadow-sm inset-shadow-blue-700 transition-discrete">
         <div className="h-[70px] w-1 rounded-2xl bg-blue-600"></div>
         <div>
           <p className=" font-[Ubuntu] text-3xl font-[700] p-3">
@@ -45,7 +45,7 @@ function Servis() {
            </div>
         </div>
       </div>
-      <div className="flex items-center h-[230px] mt-10 rounded-[5px] gap-9 bg-neutral-950">
+      <div className="flex items-center h-[230px] mt-10 rounded-[5px] gap-9 bg-neutral-950 hover:inset-shadow-sm inset-shadow-blue-700 transition-discrete">
         <div className="h-[70px] w-1 rounded-2xl bg-blue-600"></div>
         <div>
           <p className=" font-[Ubuntu] text-3xl font-[700] p-3">
@@ -62,7 +62,7 @@ function Servis() {
            </div>
         </div>
       </div>
-      <div className="flex items-center h-[230px] mt-10 rounded-[5px] gap-9 bg-neutral-950">
+      <div className="flex items-center h-[230px] mt-10 rounded-[5px] gap-9 bg-neutral-950 hover:inset-shadow-sm inset-shadow-blue-700 transition-discrete">
         <div className="h-[70px] w-1 rounded-2xl bg-blue-600"></div>
         <div>
           <p className=" font-[Ubuntu] text-3xl font-[700] p-3">

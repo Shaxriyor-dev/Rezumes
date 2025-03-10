@@ -14,7 +14,7 @@ function Reference() {
         letting other people know how your products or services benefitted them.
         We respect each client and help everyone with all our might.
       </p>
-      <div className="flex items-center h-[230px] mt-10 rounded-[5px] gap-9 bg-neutral-950">
+      <div className="flex items-center h-[230px] mt-10 rounded-[5px] gap-9 bg-neutral-950 hover:inset-shadow-sm inset-shadow-blue-700 transition-discrete">
         <div className="h-[70px] w-1 rounded-2xl bg-blue-600"></div>
         <div>
           <p className="text-lg font-[Poppins] text-neutral-300 p-3">
@@ -34,7 +34,7 @@ function Reference() {
           </p>
         </div>
       </div>
-      <div className="flex items-center h-[230px] mt-10 rounded-[5px] gap-9 bg-neutral-950">
+      <div className="flex items-center h-[230px] mt-10 rounded-[5px] gap-9 bg-neutral-950 hover:inset-shadow-sm inset-shadow-blue-700 transition-discrete">
         <div className="h-[70px] w-1 rounded-2xl bg-blue-600"></div>
         <div>
           <p className="text-lg font-[Poppins] text-neutral-300 p-3">
@@ -52,7 +52,7 @@ function Reference() {
           </p>
         </div>
       </div>
-      <div className="flex items-center h-[230px] mt-10 rounded-[5px] gap-9 bg-neutral-950">
+      <div className="flex items-center h-[230px] mt-10 rounded-[5px] gap-9 bg-neutral-950 hover:inset-shadow-sm inset-shadow-blue-700 transition-discrete">
         <div className="h-[70px] w-1 rounded-2xl bg-blue-600"></div>
         <div>
           <p className="text-lg font-[Poppins] text-neutral-300 p-3">

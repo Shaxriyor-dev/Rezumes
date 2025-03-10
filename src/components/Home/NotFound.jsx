@@ -12,6 +12,7 @@ function NotFound() {
             <Link to={'/'}>Back to homepage</Link>
             </div>
         </div>
+        
     </div>
   );
 }

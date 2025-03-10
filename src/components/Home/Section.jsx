@@ -1,4 +1,6 @@
 import React from "react";
+import { motion } from "framer-motion";
+
 
 function Section() {
   return (
@@ -6,7 +8,14 @@ function Section() {
       <p className="underline underline-offset-16 decoration-sky-500 text-[20px] font-semibold font-poppins">
       Experience
       </p>
-      <div className="flex items-center h-[230px] mt-16 rounded-[5px] gap-9 bg-neutral-950">
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.3 }}  
+        viewport={{ once: true }}
+        className="your-div-class"
+      >
+        <div className="flex items-center h-[230px] mt-16 rounded-[5px] gap-9 bg-neutral-950 hover:inset-shadow-sm inset-shadow-blue-700 transition-discrete">
         <div className="h-[70px] w-1 rounded-2xl bg-blue-600"></div>
         <div>
           <p className="text-[20px] font-[Poppins] text-neutral-300 p-2">
@@ -21,7 +30,15 @@ function Section() {
           </p>
         </div>
       </div>
-      <div className="flex items-center h-[230px] mt-5 rounded-[5px] gap-9 bg-neutral-950">
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}  
+        viewport={{ once: true }}
+        className="your-div-class"
+      >
+        <div className="flex items-center h-[230px] mt-5 rounded-[5px] gap-9 bg-neutral-950 hover:inset-shadow-sm inset-shadow-blue-700 transition-discrete">
         <div className="h-[70px] w-1 rounded-2xl bg-blue-600"></div>
         <div>
           <p className="text-[20px] font-[Poppins] text-neutral-300 p-2">
@@ -36,7 +53,15 @@ function Section() {
           </p>
         </div>
       </div>
-      <div className="flex items-center h-[230px] mt-5 rounded-[5px] gap-9 bg-neutral-950">
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }} 
+        viewport={{ once: true }}
+        className="your-div-class"
+      >
+         <div className="flex items-center h-[230px] mt-5 rounded-[5px] gap-9 bg-neutral-950 hover:inset-shadow-sm inset-shadow-blue-700 transition-discrete">
         <div className="h-[70px] w-1 rounded-2xl bg-blue-600"></div>
         <div>
           <p className="text-[20px] font-[Poppins] text-neutral-300 p-2">
@@ -51,6 +76,8 @@ function Section() {
           </p>
         </div>
       </div>
+      </motion.div>
+     
     </div>
   );
 }
