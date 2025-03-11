@@ -39,7 +39,7 @@ function About() {
         <div className="h-[119px] w-3 bg-blue-600"></div>
         <p className="text-lg  h-[120px] p-4 text-neutral-400 font-[Ubuntu]">
           I'm a passionate front-end web developer who perfect web interfaces.
-          I’m available for a freelance job. <Link className="underline hover:text-lime-500" to={'/login'} >Hire me</Link>
+          I’m available for a freelance job. <Link className="underline hover:text-lime-500" to={'/contend'} >Hire me</Link>
         </p>
       </div>
       <div className="mt-6">
@@ -115,7 +115,7 @@ function About() {
           </a>
         </div>
         <div className="bg-[#0d0d0e] h-[45px] w-[45px] flex items-center justify-center rounded-[5px] hover:bg-blue-500 ">
-          <Link to={'/setabout'} className=" text-xl  text-white ">
+          <Link to={'/aboutme'} className=" text-xl  text-white ">
              <FcAbout />
           </Link>
         </div>

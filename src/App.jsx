@@ -33,9 +33,9 @@ function App() {
 
          <Routes>
                <Route path="/" element={<Home/>}></Route> 
-               <Route path="/login" element={<Login/>}></Route> 
+               <Route path="/contend" element={<Login/>}></Route> 
                <Route path="/section" element={<Section/>}></Route> 
-               <Route path="/setabout" element={<SetAbout/>}></Route> 
+               <Route path="/aboutme" element={<SetAbout/>}></Route> 
                <Route path="*" element={<Notfound/>}></Route> 
          </Routes>
       </motion.div>

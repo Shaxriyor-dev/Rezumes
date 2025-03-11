@@ -11,7 +11,7 @@ function Education() {
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.3 }} // Tezroq animatsiya
+        transition={{ duration: 0.3 }} 
         viewport={{ once: true }}
         className="your-div-class"
       >
@@ -19,10 +19,10 @@ function Education() {
           <div className="h-[70px] w-1 rounded-2xl bg-blue-600"></div>
           <div>
             <p className="text-[20px] font-[Poppins] text-neutral-300 p-2">
-              Frenify LLC ( 2021 — Today )
+               IT Park ( 2021 — 2022 )
             </p>
             <p className=" font-[Ubuntu] text-3xl font-[700] p-2">
-              Computer Science
+                Computer engineer
             </p>
             <p className="text-lg font-[Poppins] text-neutral-300 p-2">
               Adipisicing Lorem ipsum dolor sit amet, consectetur elit, sed do
@@ -34,7 +34,7 @@ function Education() {
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }} // O'rtacha tezlikda animatsiya
+        transition={{ duration: 0.6 }} 
         viewport={{ once: true }}
         className="your-div-class"
       >
@@ -42,10 +42,10 @@ function Education() {
           <div className="h-[70px] w-1 rounded-2xl bg-blue-600"></div>
           <div>
             <p className="text-[20px] font-[Poppins] text-neutral-300 p-2">
-              Edu University ( 2020 — 2021 )
+               Unique ( 2023 —  2024)
             </p>
             <p className=" font-[Ubuntu] text-3xl font-[700] p-2">
-              Master Degree
+               Web designer
             </p>
             <p className="text-lg font-[Poppins] text-neutral-300 p-2">
               Adipisicing Lorem ipsum dolor sit amet, consectetur elit, sed do
@@ -57,7 +57,7 @@ function Education() {
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }} // Sekinroq animatsiya
+        transition={{ duration: 1 }} 
         viewport={{ once: true }}
         className="your-div-class"
       >
@@ -65,10 +65,10 @@ function Education() {
           <div className="h-[70px] w-1 rounded-2xl bg-blue-600"></div>
           <div>
             <p className="text-[20px] font-[Poppins] text-neutral-300 p-2">
-              Clolumbia College ( 2020 — 2022 )
+                Zumar IT ( 2024 — 2025 )
             </p>
             <p className=" font-[Ubuntu] text-3xl font-[700] p-2">
-              Bachelor Degree
+               Frontend Developer
             </p>
             <p className="text-lg font-[Poppins] text-neutral-300 p-2">
               Adipisicing Lorem ipsum dolor sit amet, consectetur elit, sed do

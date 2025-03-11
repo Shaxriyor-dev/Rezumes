@@ -1,13 +1,19 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 import { useEffect, useState, useRef } from "react";
+import { FaHtml5 } from "react-icons/fa";
+import { IoLogoCss3 } from "react-icons/io5";
+import { FaReact } from "react-icons/fa6";
+import { SiTailwindcss } from "react-icons/si";
+import { IoLogoJavascript } from "react-icons/io";
+import { SiRedux } from "react-icons/si";
+import { FaGithub } from "react-icons/fa6";
+import { PiFramerLogoFill } from "react-icons/pi";
+import { TbBrandTypescript } from "react-icons/tb";
 
-const skills = [
-  { name: "React  Javascript Typescript   ", percentage: 95 },
-  { name: "HTML5 & CSS3  Tailwind Bootstrap Scss", percentage: 98 },
-  { name: "Adobe Photoshop Figma Canva", percentage: 90 },
-  { name: "Github  Gitlab Netlify", percentage: 97 },
-];
+
+
+
 function Animation() {
   const [visible, setVisible] = useState(false);
   const ref = useRef(null);
@@ -26,24 +32,46 @@ function Animation() {
   }, []);
 
   return (
-    <div className="w-[910px] h-[600px] p-6 inset-ring-1 inset-ring-neutral-900 mt-10 rounded-lg bg-[#121212]">
+    <div className="w-[910px] h-[100%] p-6 inset-ring-1 inset-ring-neutral-900 mt-10 rounded-lg bg-[#121212]">
       <p className="underline underline-offset-16 decoration-sky-500 text-[20px] font-semibold font-[poppins]">
         Professionality
       </p>
-      <div>
-        <div ref={ref} className=" text-white  space-y-6 mt-16">
-          {skills.map((skill, index) => (
-            <div key={index} className="space-y-4 ">
-              <div className="relative w-[800px] h-15 bg-neutral-100 rounded-full overflow-hidden flex items-center">
-                <div
-                  className="h-full bg-neutral-950 transition-all duration-[2000ms] ease-out flex items-center pl-4 text-blue-600 text-lg font-semibold"
-                  style={{ width: visible ? `${skill.percentage}%` : "0%" }}
-                >
-                  {visible ? `${skill.name} ${skill.percentage}%` : ""}
-                </div>
-              </div>
-            </div>
-          ))}
+      <div className="mt-9 flex item-center flex-wrap w-[380px] gap-6">
+        <div className="flex items-center gap-2 text-3xl hover:text-sky-500">
+          <FaHtml5 />
+          <p className="text-2xl">Html</p>
+        </div>
+        <div className="flex items-center gap-2 text-3xl hover:text-sky-500">
+        <IoLogoCss3 />
+          <p className="text-2xl">Css</p>
+        </div>
+        <div className="flex items-center gap-2 text-3xl hover:text-sky-500">
+        <IoLogoJavascript />
+          <p className="text-2xl">Javascript</p>
+        </div>
+        <div className="flex items-center gap-2 text-3xl hover:text-sky-500">
+        <TbBrandTypescript />
+          <p className="text-2xl">Typescript</p>
+        </div>
+        <div className="flex items-center gap-2 text-3xl hover:text-sky-500">
+        <FaReact />
+          <p className="text-2xl">React</p>
+        </div>
+        <div className="flex items-center gap-2 text-3xl hover:text-sky-500">
+        <SiTailwindcss />
+          <p className="text-2xl">Tailwind</p>
+        </div>
+        <div className="flex items-center gap-2 text-3xl hover:text-sky-500">
+        <SiRedux />
+          <p className="text-2xl">Redux</p>
+        </div>
+        <div className="flex items-center gap-2 text-3xl hover:text-sky-500">
+        <FaGithub />
+          <p className="text-2xl">Github</p>
+        </div>
+        <div className="flex items-center gap-2 text-3xl hover:text-sky-500">
+        <PiFramerLogoFill />
+          <p className="text-2xl">Framer motion</p>
         </div>
       </div>
       <div
