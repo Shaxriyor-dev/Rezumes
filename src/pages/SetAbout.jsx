@@ -34,14 +34,17 @@ function SetAbout() {
         learn about the latest advancements in the field.
       </motion.p>
       <motion.p
-         className="mt-5 text-base/8 font-[Poppins]"
-         initial={{ opacity: 0, x: -30 }}
-         animate={{ opacity: 1, x: 0 }}
-         transition={{ duration: 1.2, delay: 0.5 }}
+        className="mt-5 text-base/8 font-[Poppins]"
+        initial={{ opacity: 0, x: -30 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1.2, delay: 0.5 }}
       >
-      Coding is not just a skill for me; it’s a passion that fuels my creativity and problem-solving mindset. I love bringing ideas to life through
-software and developing solutions that can make a real impact. In the future, I aspire to become a top-tier software developer,
-creating innovative applications that improve people’s lives and contribute to the tech industry.
+        Coding is not just a skill for me; it’s a passion that fuels my
+        creativity and problem-solving mindset. I love bringing ideas to life
+        through software and developing solutions that can make a real impact.
+        In the future, I aspire to become a top-tier software developer,
+        creating innovative applications that improve people’s lives and
+        contribute to the tech industry.
       </motion.p>
       <p></p>
     </div>

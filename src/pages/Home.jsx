@@ -98,7 +98,6 @@ function Home() {
       <div className="flex items-center justify-center">
          <Reference/>
       </div>
-       <Now/>
       <div className="flex items-center justify-center">
          <Login/>
       </div>
