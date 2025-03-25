@@ -39,39 +39,39 @@ function Animation() {
       <div className="mt-9 flex item-center flex-wrap w-[380px] gap-6">
         <div className="flex items-center gap-2 text-3xl hover:text-sky-500">
           <FaHtml5 />
-          <p className="text-2xl">Html</p>
+          <a href="https://i.ytimg.com/vi/x_BiMRP2au8/maxresdefault.jpg" className="text-2xl">Html</a>
         </div>
         <div className="flex items-center gap-2 text-3xl hover:text-sky-500">
         <IoLogoCss3 />
-          <p className="text-2xl">Css</p>
+          <a href="https://e7.pngegg.com/pngimages/589/943/png-clipart-web-development-responsive-web-design-cascading-style-sheets-web-design-angle-web-design.png" className="text-2xl">Css</a>
         </div>
         <div className="flex items-center gap-2 text-3xl hover:text-sky-500">
         <IoLogoJavascript />
-          <p className="text-2xl">Javascript</p>
+          <a href="https://avatars.mds.yandex.net/i?id=0813b7d6abb885a0c18e4c0f0b26d4c3_l-5251249-images-thumbs&n=13" className="text-2xl">Javascript</a>
         </div>
         <div className="flex items-center gap-2 text-3xl hover:text-sky-500">
         <TbBrandTypescript />
-          <p className="text-2xl">Typescript</p>
+          <a href="https://habrastorage.org/getpro/habr/upload_files/cea/e08/dc8/ceae08dc86d56ed7be9ac82ee281267f.png" className="text-2xl">Typescript</a>
         </div>
         <div className="flex items-center gap-2 text-3xl hover:text-sky-500">
         <FaReact />
-          <p className="text-2xl">React</p>
+          <a href="https://avatars.mds.yandex.net/i?id=0a198d85d96fafb8ae1042245d7f23e5_l-9843912-images-thumbs&n=13" className="text-2xl">React</a>
         </div>
         <div className="flex items-center gap-2 text-3xl hover:text-sky-500">
         <SiTailwindcss />
-          <p className="text-2xl">Tailwind</p>
+          <a href="https://i.ytimg.com/vi/PnOeJ0SKax8/maxresdefault.jpg" className="text-2xl">Tailwind</a>
         </div>
         <div className="flex items-center gap-2 text-3xl hover:text-sky-500">
         <SiRedux />
-          <p className="text-2xl">Redux</p>
+          <a href="https://miro.medium.com/v2/resize:fit:1200/1*I41ajuzUNAVtZGa7wExkNA.png" className="text-2xl">Redux</a>
         </div>
         <div className="flex items-center gap-2 text-3xl hover:text-sky-500">
         <FaGithub />
-          <p className="text-2xl">Github</p>
+          <a href="https://avatars.mds.yandex.net/i?id=bb399f4a1279de25b21eb1f0b68a75b7f8f81916-5221602-images-thumbs&n=13" className="text-2xl">Github</a>
         </div>
         <div className="flex items-center gap-2 text-3xl hover:text-sky-500">
         <PiFramerLogoFill />
-          <p className="text-2xl">Framer motion</p>
+          <a href="https://miro.medium.com/v2/resize:fit:1200/1*vt36Re3GDIxL8HeXKoQDxQ.png" className="text-2xl">Framer motion</a>
         </div>
       </div>
       <div

@@ -12,7 +12,7 @@ import logos from "../components/Home/Logo/logos.jpg";
 import Animation from "../components/Animation.jsx";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Now from "../components/Home/Now.jsx"
+import Admin from "./Admin.jsx";
 
 
 
@@ -101,8 +101,7 @@ function Home() {
       <div className="flex items-center justify-center">
          <Login/>
       </div>
-
-      {/* Footer */}
+        <Admin/>
       <div className="flex items-center justify-center">
          <Footer/>
       </div>

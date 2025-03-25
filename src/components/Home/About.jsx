@@ -85,7 +85,7 @@ function About() {
       </div>
       <div className="flex items-center gap-[10px] mt-10">
         <div className="bg-[#0d0d0e] h-[45px] w-[45px] flex items-center justify-center rounded-[5px] hover:bg-blue-500 ">
-          <a className=" text-xl  text-white " href="https://twitter.com/login?lang=ru/">
+          <a className=" text-xl  text-white " href="https://twitter.com/Shakhriyorweb/">
             <FaTwitter />
           </a>
         </div>
@@ -95,9 +95,9 @@ function About() {
           </a>
         </div>
         <div className="bg-[#0d0d0e] h-[45px] w-[45px] flex items-center justify-center rounded-[5px] hover:bg-blue-500 ">
-          <Link className=" text-xl  text-white ">
+          <a href="https://www.instagram.com/shakh.jsx/" className=" text-xl  text-white ">
           <BsInstagram />
-          </Link>
+          </a>
         </div>
         <div className="bg-[#0d0d0e] h-[45px] w-[45px] flex items-center justify-center rounded-[5px] hover:bg-blue-500 ">
           <a className=" text-xl  text-white " href="https://github.com/Shaxriyor-dev">
