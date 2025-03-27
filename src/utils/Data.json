@@ -1,0 +1,49 @@
+{
+  "Portfolio": [
+    {
+      "id": "1",
+      "name": "Foot Over the word",
+      "img": "https://i.ibb.co/wrykGkyr/love.png",
+      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde enim aperiam, quae velit aut repellendus. Eius nulla a laboriosam dicta.",
+      "girurl": "https://github.com/Shaxriyor-dev/eatly",
+      "neturl": "https://app.netlify.com/sites/eating-foods/overview",
+      "see": "https://eating-foods.netlify.app"
+    },
+    {
+      "name": "Uzum Market uz",
+      "img": "https://i.ibb.co/TBSbPj56/uzmu.png",
+      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde enim aperiam, quae velit aut repellendus. Eius nulla a laboriosam dicta.",
+      "girurl": "https://github.com/Shaxriyor-dev/Uzum-market",
+      "neturl": "https://uzumteskor.netlify.app",
+      "see": "https://uzumteskor.netlify.app",
+      "id": "2"
+    },
+    {
+      "name": "Happiness is Travelling",
+      "img": "https://i.ibb.co/0Rs6VSS7/tra.png",
+      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde enim aperiam, quae velit aut repellendus. Eius nulla a laboriosam dicta.",
+      "girurl": "https://github.com/Shaxriyor-dev/eatly",
+      "neturl": "https://www2008.netlify.app/",
+      "see": "https://www2008.netlify.app/",
+      "id": "3"
+    },
+    {
+      "name": "Shopping is Coffee",
+      "img": "https://i.ibb.co/DfsStw8z/koffe.png",
+      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde enim aperiam, quae velit aut repellendus. Eius nulla a laboriosam dicta.",
+      "girurl": "https://github.com/Shaxriyor-dev/eatly",
+      "neturl": "https://coffee-0008.netlify.app",
+      "see": "https://coffee-0008.netlify.app",
+      "id": "4"
+    },
+    {
+      "id": "0103",
+      "name": "Sport.uz",
+      "img": "https://cms.imgworlds.com/assets/e3873302-212a-4c3a-aab3-c3bee866903c.jpg?key=home-gallery",
+      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde enim aperiam, quae velit aut repellendus. Eius nulla a laboriosam dicta.",
+      "giturl": "https://eating-foods.netlify.app",
+      "neturl": "https://eating-foods.netlify.app",
+      "see": "https://eating-foods.netlify.app"
+    }
+  ]
+}

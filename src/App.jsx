@@ -7,7 +7,10 @@ import { Route , Routes } from "react-router-dom";
 import About from '../src/components/Home/About.jsx';
 import Notfound from '../src/components/Home/NotFound.jsx';
 import SetAbout from "./pages/SetAbout.jsx";
-import Mouse from "../src/components/Mouse.jsx"
+import Mouse from "../src/components/Mouse.jsx";
+import Preject from "./components/Preject.jsx";
+import Admin from "./pages/Admin.jsx";
+import Logins from "../src/components/Login.jsx";
 
 function App() {
   return (
@@ -36,6 +39,9 @@ function App() {
                <Route path="/contend" element={<Login/>}></Route> 
                <Route path="/section" element={<Section/>}></Route> 
                <Route path="/aboutme" element={<SetAbout/>}></Route> 
+               <Route path="/admins" element={<Admin/>}></Route> 
+               <Route path="/dashboard/login" element={<Logins/>}></Route> 
+               <Route path="/getabout" element={<Preject/>}></Route> 
                <Route path="*" element={<Notfound/>}></Route> 
          </Routes>
       </motion.div>

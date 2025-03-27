@@ -101,7 +101,6 @@ function Home() {
       <div className="flex items-center justify-center">
          <Login/>
       </div>
-        <Admin/>
       <div className="flex items-center justify-center">
          <Footer/>
       </div>
