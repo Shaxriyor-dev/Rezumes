@@ -18,6 +18,7 @@
     "@popmotion/popcorn": "^0.4.4",
     "@tailwindcss/vite": "^4.0.11",
     "@toolpad/core": "^0.12.1",
+    "audio": "^1.2.0",
     "axios": "^1.8.4",
     "framer-motion": "^12.4.10",
     "grapheme-splitter": "^1.0.4",

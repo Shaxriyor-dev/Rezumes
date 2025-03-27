@@ -1,18 +1,19 @@
+import { Route , Routes } from "react-router-dom";
 import React from "react";
 import { motion } from "framer-motion";
 import Home from "./pages/Home.jsx"
 import Login from '../src/pages/Login.jsx'
-import Section from '../src/components/Home/Section.jsx';
-import { Route , Routes } from "react-router-dom";
-import About from '../src/components/Home/About.jsx';
-import Notfound from '../src/components/Home/NotFound.jsx';
 import SetAbout from "./pages/SetAbout.jsx";
 import Mouse from "../src/components/Mouse.jsx";
 import Preject from "./components/Preject.jsx";
 import Admin from "./pages/Admin.jsx";
 import Logins from "../src/components/Login.jsx";
+import Section from '../src/components/Home/Section.jsx';
+import About from '../src/components/Home/About.jsx';
+import Notfound from '../src/components/Home/NotFound.jsx';
 
 function App() {
+ 
   return (
     <div className=" bg-[#151515] relative h-screen text-white  duration-300 overflow-hidden">
       <div className="absolute top-0 left-0 w-1/4 h-full bg-[#3452FF] clip-custom animate-slide-left"></div>

@@ -12,7 +12,7 @@ import logos from "../components/Home/Logo/logos.jpg";
 import Animation from "../components/Animation.jsx";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Admin from "./Admin.jsx";
+
 
 
 

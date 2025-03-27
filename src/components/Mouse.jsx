@@ -27,7 +27,7 @@ function Home() {
     default: {
       x: mousePosition.x - -10, 
       y: mousePosition.y - -10, 
-      transition: { type: "spring", stiffness: 300, damping: 20 },
+      transition: { type: "spring", stiffness: 200, damping: 10 },
     },
   };
 

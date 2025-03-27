@@ -17,7 +17,7 @@ function Admin() {
              title : title ,
              giturl : giturl,
              neturl : neturl ,
-             see , see ,
+             see : see ,
           })
      }
 

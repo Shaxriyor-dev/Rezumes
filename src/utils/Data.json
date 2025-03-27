@@ -3,16 +3,16 @@
     {
       "id": "1",
       "name": "Foot Over the word",
-      "img": "https://i.ibb.co/wrykGkyr/love.png",
-      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde enim aperiam, quae velit aut repellendus. Eius nulla a laboriosam dicta.",
+      "img": "https://t3.ftcdn.net/jpg/02/52/38/80/360_F_252388016_KjPnB9vglSCuUJAumCDNbmMzGdzPAucK.jpg",
+      "title": "To quote or reference a source – Referring to a book, article, or author in support of an argument.Example: He cited a famous scientist in his research paper.",
       "girurl": "https://github.com/Shaxriyor-dev/eatly",
       "neturl": "https://app.netlify.com/sites/eating-foods/overview",
       "see": "https://eating-foods.netlify.app"
     },
     {
       "name": "Uzum Market uz",
-      "img": "https://i.ibb.co/TBSbPj56/uzmu.png",
-      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde enim aperiam, quae velit aut repellendus. Eius nulla a laboriosam dicta.",
+      "img": "https://img.umedia.uz/wp-content/uploads/2023/12/fishki-uzum-marketa-1-1838x810.png",
+      "title": "​Uzum Market is Uzbekistan's leading online marketplace.​Uzum Market  integrates e-commerce with fintech and banking services to enhance the quality of life across the country.",
       "girurl": "https://github.com/Shaxriyor-dev/Uzum-market",
       "neturl": "https://uzumteskor.netlify.app",
       "see": "https://uzumteskor.netlify.app",
@@ -20,8 +20,8 @@
     },
     {
       "name": "Happiness is Travelling",
-      "img": "https://i.ibb.co/0Rs6VSS7/tra.png",
-      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde enim aperiam, quae velit aut repellendus. Eius nulla a laboriosam dicta.",
+      "img": "https://dlq00ggnjruqn.cloudfront.net/prometheus/getImage?id=244770&width=1220&height=890",
+      "title": "Happiness is Travelling – This phrase expresses the idea that  happiness comes from exploring new places, experiencing different cultures, and embracing the journey.",
       "girurl": "https://github.com/Shaxriyor-dev/eatly",
       "neturl": "https://www2008.netlify.app/",
       "see": "https://www2008.netlify.app/",
@@ -29,21 +29,12 @@
     },
     {
       "name": "Shopping is Coffee",
-      "img": "https://i.ibb.co/DfsStw8z/koffe.png",
-      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde enim aperiam, quae velit aut repellendus. Eius nulla a laboriosam dicta.",
+      "img": "https://www.shutterstock.com/image-vector/keep-calm-make-coffee-svg-600nw-2331115669.jpg",
+      "title": "Shopping is Coffee – This phrase could symbolize how shopping and coffee are both enjoyable experiences that bring comfort and satisfaction.",
       "girurl": "https://github.com/Shaxriyor-dev/eatly",
       "neturl": "https://coffee-0008.netlify.app",
       "see": "https://coffee-0008.netlify.app",
       "id": "4"
-    },
-    {
-      "id": "0103",
-      "name": "Sport.uz",
-      "img": "https://cms.imgworlds.com/assets/e3873302-212a-4c3a-aab3-c3bee866903c.jpg?key=home-gallery",
-      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde enim aperiam, quae velit aut repellendus. Eius nulla a laboriosam dicta.",
-      "giturl": "https://eating-foods.netlify.app",
-      "neturl": "https://eating-foods.netlify.app",
-      "see": "https://eating-foods.netlify.app"
     }
   ]
 }
