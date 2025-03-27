@@ -11,7 +11,7 @@ function Admin() {
   const [see , setSee] = useState("");
     
      const handle = () => {
-          axios.post("https://gist.githubusercontent.com/Shaxriyor-dev/aff5afb546fe7556afb3db7e597d865c/raw/" , {
+          axios.post("http://localhost:3000/Portfolio" , {
              name : name ,
              img : imgurl,
              title : title ,

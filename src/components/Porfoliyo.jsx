@@ -11,7 +11,7 @@ function Porfoliyo() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("https://gist.githubusercontent.com/Shaxriyor-dev/aff5afb546fe7556afb3db7e597d865c/raw/")
+    fetch("http://localhost:3000/Portfolio")
       .then((response) => response.json())
       .then((data) => setData(data))
       .catch((error) => console.error("Error fetching data:", error));
