@@ -35,6 +35,15 @@
       "neturl": "https://coffee-0008.netlify.app",
       "see": "https://coffee-0008.netlify.app",
       "id": "4"
+    },
+    {
+      "id": "7328",
+      "name": "Food explorer",
+      "img": "https://www.48hourslogo.com/48hourslogo_data/2018/03/26/71645_1522065282.png",
+      "title": "\"Food Explorer\" can refer to several concepts, including a person who enjoys exploring different cuisines and food cultures, a TV show, a book.",
+      "giturl": "https://github.com/Shaxriyor-dev/Food-eating",
+      "neturl": "https://github.com/Shaxriyor-dev/Food-eating",
+      "see": "https://eating-21.netlify.app/"
     }
   ]
 }

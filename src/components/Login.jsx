@@ -10,7 +10,7 @@ function Login() {
   const [color , setColor] = useState("color");
     
     const handleclick = ()=>{
-        if(login == "Admin" && password == "12345678"){
+        if(login == "admin" && password == "0000"){
           setColor("lime")
           setTimeout(()=>{
             navigator('/admins')
@@ -29,7 +29,7 @@ function Login() {
              {err && 
                 <h1 style={{color : color}} className='mt-3 text-sm p-1'>{err}</h1>
             }
-             <input onClick={handleclick} className='text-lg text-white p-3 w-full font-[Poppins] outline-none border-2 rounded-sm mt-10' type="button" value={"Sumbit"} />
+             <input onClick={handleclick} className='text-lg text-white p-3 w-full font-[Poppins] outline-none border-2 border-[lime] rounded-sm mt-10 bg-[lime]' type="button" value={"Sumbit"} />
         </div>
     </div>
   )
