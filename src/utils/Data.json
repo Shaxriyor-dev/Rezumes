@@ -19,15 +19,6 @@
       "id": "2"
     },
     {
-      "name": "Happiness is Travelling",
-      "img": "https://dlq00ggnjruqn.cloudfront.net/prometheus/getImage?id=244770&width=1220&height=890",
-      "title": "Happiness is Travelling – This phrase expresses the idea that  happiness comes from exploring new places, experiencing different cultures, and embracing the journey.",
-      "girurl": "https://github.com/Shaxriyor-dev/eatly",
-      "neturl": "https://www2008.netlify.app/",
-      "see": "https://www2008.netlify.app/",
-      "id": "3"
-    },
-    {
       "name": "Shopping is Coffee",
       "img": "https://www.shutterstock.com/image-vector/keep-calm-make-coffee-svg-600nw-2331115669.jpg",
       "title": "Shopping is Coffee – This phrase could symbolize how shopping and coffee are both enjoyable experiences that bring comfort and satisfaction.",
@@ -35,6 +26,15 @@
       "neturl": "https://coffee-0008.netlify.app",
       "see": "https://coffee-0008.netlify.app",
       "id": "4"
+    },
+    {
+      "id": "5e10",
+      "name": "Biginner rezume  ",
+      "img": "https://s.tmimgcdn.com/scr/1200x750/339200/architecture-portfolio-design-portfolio-template-interior-portfolio_339244-original.jpg",
+      "title": "I work as a Frontend Developer in the Andijan region of Uzbekistan. A dedicated and efficient developer with strong UI effects and high performance training programs.",
+      "giturl": "https://rezume-24.netlify.app/",
+      "neturl": "https://rezume-24.netlify.app/",
+      "see": "https://rezume-24.netlify.app/"
     }
   ]
 }

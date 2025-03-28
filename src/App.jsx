@@ -10,6 +10,7 @@ import Admin from "./pages/Admin.jsx";
 import Logins from "../src/components/Login.jsx";
 import Section from '../src/components/Home/Section.jsx';
 import About from '../src/components/Home/About.jsx';
+import Porfoliyo from "./components/Porfoliyo.jsx";
 import Notfound from '../src/components/Home/NotFound.jsx';
 
 function App() {

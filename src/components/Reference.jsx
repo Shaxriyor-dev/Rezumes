@@ -2,6 +2,9 @@ import * as React from "react";
 import Rating from "@mui/material/Rating";
 import Stack from "@mui/material/Stack";
 import kol from "../assets//imgs/kol.jpg";
+import person from "../assets/icons/person.jpg"
+import person1 from "../assets/icons/person1.jpg"
+import person2 from "../assets/icons/person2.jpg"
 
 function Reference() {
   return (
@@ -25,9 +28,9 @@ function Reference() {
         </div>
         <div className="h-[230px] w-0.5 bg-neutral-400"></div>
         <div className="p-17 flex items-center flex-wrap justify-center">
-          <img className="rounded-[50%] h-[100px] w-[100px]" src={kol} alt="" />
+          <img className="rounded-[50%] h-[100px] w-[100px]" src={person} alt="" />
           <p className="text-[14px] p-3 text-center py-2 font-[Poppins]">
-            Shahkweb
+            Mr.Mike
             <Stack spacing={1}>
               <Rating  name="size-medium" defaultValue={3} />
             </Stack>
@@ -43,9 +46,9 @@ function Reference() {
         </div>
         <div className="h-[230px] w-0.5 bg-neutral-400"></div>
         <div className="p-17 flex items-center flex-wrap justify-center">
-          <img className="rounded-[50%] h-[100px] w-[100px]" src={kol} alt="" />
+          <img className="rounded-[50%] h-[100px] w-[100px]" src={person1} alt="" />
           <p className="text-[14px] p-3 text-center py-2 font-[Poppins]">
-            Shahkweb
+            Shahk-web
             <Stack spacing={1}>
               <Rating  name="size-medium" defaultValue={4} />
             </Stack>
@@ -63,9 +66,9 @@ function Reference() {
         </div>
         <div className="h-[230px] w-0.5 bg-neutral-400"></div>
         <div className="p-17 flex items-center flex-wrap justify-center">
-          <img className="rounded-[50%] h-[100px] w-[100px]" src={kol} alt="" />
+          <img className="rounded-[50%] h-[100px] w-[100px]" src={person2} alt="" />
           <p className="text-[14px] p-3 text-center py-2 font-[Poppins]">
-            Shahkweb
+            Alexsandr
             <Stack spacing={1}>
               <Rating  name="size-medium" defaultValue={2} />
             </Stack>
