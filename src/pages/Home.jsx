@@ -12,6 +12,7 @@ import logos from "../components/Home/Logo/logos.jpg";
 import Animation from "../components/Animation.jsx";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Plans from "../components/Plans.jsx";
 
 
 
@@ -83,6 +84,9 @@ function Home() {
       <div className="flex items-center justify-center">
       <Education/>
       </div>
+        <div className="flex items-center justify-center">
+             <Plans/>
+        </div>
       <div className="flex items-center justify-center">
          <Section/>
       </div>

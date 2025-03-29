@@ -12,7 +12,9 @@ function Admin() {
   const [deleteId, setDeleteId] = useState("");
   const [err, setErr] = useState("");
   const [color , setColor] = useState("color");
-  const [errors , setErrors] = useState("color")
+  const [colors , setColors] = useState("color");
+  const [Lart , setLert] = useState("")
+
 
 
   const handleDelete = async () => {
@@ -45,8 +47,8 @@ function Admin() {
       neturl: neturl,
       see: see,
     });
-    setColor("lime")
-      setErrors("Sizning ma'lumotlaringiz portfolio joylandi")
+    setColors("lime")
+      setLert("Sizning ma'lumotlaringiz portfolio joylandi");
   };
 
   return (
@@ -100,7 +102,7 @@ function Admin() {
             type="text"
           />
            {
-              errors && <p style={{color : color}} className="text-sm py-2 font-[Poppins]">{errors}</p>
+              Lart && <p style={{color : colors}} className="text-sm py-2 font-[Poppins]">{Lart}</p>
             }
           <input
             onClick={handle}

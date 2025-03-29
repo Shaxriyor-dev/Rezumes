@@ -8,6 +8,8 @@ import { SiTailwindcss } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiRedux } from "react-icons/si";
 import { FaGithub } from "react-icons/fa6";
+import { FaBootstrap } from "react-icons/fa"
+import { FaGitlab } from "react-icons/fa";
 import { PiFramerLogoFill } from "react-icons/pi";
 import { TbBrandTypescript } from "react-icons/tb";
 
@@ -36,7 +38,7 @@ function Animation() {
       <p className="underline underline-offset-16 decoration-sky-500 text-[20px] font-semibold font-[poppins]">
         Professionality
       </p>
-      <div className="mt-9 flex item-center flex-wrap w-[380px] gap-6">
+      <div className="mt-9 flex item-center flex-wrap w-[480px] gap-6">
         <div className="flex items-center gap-2 text-3xl hover:text-sky-500">
           <FaHtml5 />
           <a href="https://i.ytimg.com/vi/x_BiMRP2au8/maxresdefault.jpg" className="text-2xl">Html</a>
@@ -72,6 +74,14 @@ function Animation() {
         <div className="flex items-center gap-2 text-3xl hover:text-sky-500">
         <PiFramerLogoFill />
           <a href="https://miro.medium.com/v2/resize:fit:1200/1*vt36Re3GDIxL8HeXKoQDxQ.png" className="text-2xl">Framer motion</a>
+        </div>
+        <div className="flex items-center gap-2 text-3xl hover:text-sky-500">
+        <FaBootstrap />
+          <a href="https://miro.medium.com/v2/resize:fit:1200/1*vt36Re3GDIxL8HeXKoQDxQ.png" className="text-2xl">Bootstrap</a>
+        </div>
+        <div className="flex items-center gap-2 text-3xl hover:text-sky-500">
+        <FaGitlab/>
+          <a href="https://miro.medium.com/v2/resize:fit:1200/1*vt36Re3GDIxL8HeXKoQDxQ.png" className="text-2xl">Gitlab</a>
         </div>
       </div>
       <div
@@ -175,6 +185,13 @@ function Animation() {
                         "
               >
                 Figma
+              </div>
+              <div
+                className="bg-neutral-950 font-[Poppins] text-[19px] text-neutral-300 hover:text-blue-600    m-1 flex space-x-5 p-1.5 px-8
+                         font-bold text-1xl cursor-pointer
+                        "
+              >
+                Material ui
               </div>
             </Marquee>
           </div>
