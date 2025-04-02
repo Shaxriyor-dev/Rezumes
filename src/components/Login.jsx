@@ -28,7 +28,7 @@ function Login() {
     }
   };
   return (
-    <div className="flex items-center justify-center w-[910px] h-[100%] p-6 inset-ring-1 inset-ring-neutral-900 mt-10 rounded-lg bg-[#121212]">
+    <div className="flex items-center justify-center w-full h-[100%] p-6 inset-ring-1 inset-ring-neutral-900 mt-10 rounded-lg bg-[#121212]">
       <div className="flex absolute right-0 top-0 p-10">
         <motion.div
           initial={{ x: "-2 00%" }}

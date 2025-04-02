@@ -115,7 +115,27 @@ function Admin() {
       <div className="mt-10">
         <div>
           <p className="text-lg font-[Boldonse] ">Settings dalete</p>
+          <input  style={{border :`solid 1px ${color} `}}
+             placeholder="Portfolio delate id :"
+            value={deleteId}
+            onChange={(e) => setDeleteId(e.target.value)}
+            className="p-2.5 border-2 rounded-sm w-full font-[Poppins] mt-4"
+            type="text"
+          />
+          {err && <p style={{color : color}} className="py-2 font-[Poppins] text-sm">{err}</p>}
+          <input
+            onClick={handleDelete}
+            className="p-2.5 border-2 border-green-600 font-[Poppins] rounded-sm w-full mt-4 bg-green-600"
+            type="button"
+            value={"Sumbit"}
+          />
+        </div>
+      </div>
+      <div className="mt-10">
+        <div>
+          <p className="text-lg font-[Boldonse] ">Settings skills</p>
           <input style={{border :`solid 1px ${color} `}}
+            placeholder="Create"
             value={deleteId}
             onChange={(e) => setDeleteId(e.target.value)}
             className="p-2.5 border-2 rounded-sm w-full font-[Poppins] mt-4"

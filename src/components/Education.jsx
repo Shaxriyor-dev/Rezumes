@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function Education() {
   return (
-    <div className="w-[910px] h-[100%] p-6 inset-ring-1 inset-ring-neutral-900 mt-10 rounded-lg bg-[#121212]">
+    <div className="w-full h-[100%] p-6 inset-ring-1 inset-ring-neutral-900 mt-10 rounded-lg bg-[#121212]">
       <p className="underline underline-offset-16 decoration-sky-500 text-[20px] font-semibold font-[poppins]">
         Education
       </p>

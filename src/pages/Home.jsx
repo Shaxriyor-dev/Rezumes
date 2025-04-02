@@ -59,7 +59,7 @@ function Home() {
   return (
     <div>
       <div className="fixed right-0 top-0"><ToastContainer /></div>
-      <div className="flex items-center   gap-20  bg-[#121212] w-[910px] px-19 rounded-b-lg   h-[650px] ">
+      <div className="flex items-center   gap-20  bg-[#121212] w-full px-19 rounded-b-lg   h-[650px] ">
         <div className="flex items-center justify-center h-[280px] w-[280px] rounded-[50%] bg-blue-600">
           <div className="flex items-center justify-center h-[260px] w-[260px] rounded-[50%] bg-orange-300 mt-8 mr-7">
             <img

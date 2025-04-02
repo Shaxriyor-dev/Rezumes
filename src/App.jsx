@@ -10,7 +10,6 @@ import Admin from "./pages/Admin.jsx";
 import Logins from "../src/components/Login.jsx";
 import Section from '../src/components/Home/Section.jsx';
 import About from '../src/components/Home/About.jsx';
-import Porfoliyo from "./components/Porfoliyo.jsx";
 import Notfound from '../src/components/Home/NotFound.jsx';
 
 function App() {
@@ -20,12 +19,12 @@ function App() {
       <div className="absolute top-0 left-0 w-1/4 h-full bg-[#3452FF] clip-custom animate-slide-left"></div>
       <div className="absolute top-0 right-0 w-1/4 h-full bg-[#070707]  clip-custom-right animate-slide-right"></div>
       <Mouse/>
-      <div className="relative flex items-center justify-evenly h-full">
+      <div className="relative flex  items-center p-12 justify-evenly w-full h-screen">
       <motion.div
         initial={{ opacity: 0, y: -100 }}
         animate={{ opacity: 2, y: 0 }}
         transition={{ duration: 0.3, ease: "easeOut" }}
-        className="w-[460px] h-[650px] bg-[#121212] text-white rounded-l-xl overflow-y-scroll  p-6 px-10"
+        className="w-[32%] h-full bg-[#121212] text-white rounded-l-xl overflow-y-scroll  p-6 px-10"
       >
         <About/>
       </motion.div>
@@ -33,7 +32,7 @@ function App() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 2, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-        className="w-[920px] h-[650px]  text-white overflow-y-scroll  rounded-r-xl"
+        className="w-[65%] h-full  text-white overflow-y-scroll  rounded-r-xl"
       >
 
          <Routes>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function NotFound() {
   return (
-    <div className="w-[910px] h-[650px] flex items-center justify-center  p-6 inset-ring-1 inset-ring-neutral-900 mt-10 rounded-lg bg-[#121212]">
+    <div className="w-full h-full flex items-center justify-center  p-6 inset-ring-1 inset-ring-neutral-900 mt-10 rounded-lg bg-[#121212]">
         <div>
             <p className="text-[190px] font-[Rubik] text-center">404</p>
             <p className="text-center text-4xl font-[Rubik] ">Page not found</p>
