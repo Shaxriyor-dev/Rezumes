@@ -28,4 +28,23 @@
 
 
   
+  @keyframes flip {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes kitrotate {
+    to {
+      transform: rotate(90deg);
+    }
+  }
+  
+  .flip-animation {
+    animation: flip 6s infinite steps(2, end);
+  }
+  
+  .kitrotate-animation {
+    animation: kitrotate 3s linear infinite both;
+  }
   
