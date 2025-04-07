@@ -1,6 +1,8 @@
 import axios from "axios";
-import React from "react";
+import { FaRegTimesCircle } from "react-icons/fa";
+import React, { useEffect } from "react";
 import { useState } from "react";
+import Datas from "../utils/About.json";
 
 function Admin() {
   const [name, setName] = useState("");
@@ -13,9 +15,16 @@ function Admin() {
   const [err, setErr] = useState("");
   const [color , setColor] = useState("color");
   const [colors , setColors] = useState("color");
-  const [Lart , setLert] = useState("")
+  const [Lart , setLert] = useState("");
 
+  const [data, setData] = useState(null);
 
+  useEffect(() => {
+    setData(Datas);
+  }, []);
+
+  if (!data) return <h1>Loading ...</h1>;
+  
 
   const handleDelete = async () => {
     if (!deleteId) {
@@ -132,21 +141,66 @@ function Admin() {
         </div>
       </div>
       <div className="mt-10">
+      <p className="text-lg font-[Boldonse] ">Biography dalete</p>
         <div>
-          <p className="text-lg font-[Boldonse] ">Settings skills</p>
-          <input style={{border :`solid 1px ${color} `}}
-            placeholder="Create"
-            value={deleteId}
-            onChange={(e) => setDeleteId(e.target.value)}
+        {data.map((malumot) => (
+          <div className="flex gap-3 item-center mt-9 flex-wrap" key={malumot.id}>
+            <div className="flex items-center gap-5 bg-neutral-950 px-3 border rounded-sm">
+            <p className=" font-[Poppins] text-sm text-neutral-300 hover:text-blue-600 ">{malumot.Name}</p>
+               <button  className="text-[18px] text-red-600"><FaRegTimesCircle /></button>
+            </div>
+            <div className="flex items-center gap-5 bg-neutral-950 px-3 border rounded-sm">
+            <p className="bg-neutral-950 font-[Poppins] text-sm p-2.5 text-neutral-300 hover:text-blue-600 rounded-[5px]">{malumot.Age}</p>
+               <button  className="text-[18px] text-red-600"><FaRegTimesCircle /></button>
+            </div>
+            <div className="flex items-center gap-5 bg-neutral-950 px-3 border rounded-sm">
+            <p className="bg-neutral-950 font-[Poppins] text-sm p-2.5 text-neutral-300 hover:text-blue-600 rounded-[5px]">{malumot.Telegram}</p>
+               <button  className="text-[18px] text-red-600"><FaRegTimesCircle /></button>
+            </div>
+            <div className="flex items-center gap-5 bg-neutral-950 px-3 border rounded-sm">
+            <p className="bg-neutral-950 font-[Poppins] text-sm p-2.5 text-neutral-300 hover:text-blue-600 rounded-[5px]">{malumot.Email}</p>
+               <button  className="text-[18px] text-red-600"><FaRegTimesCircle /></button>
+            </div>
+            <div className="flex items-center gap-5 bg-neutral-950 px-3 border rounded-sm">
+            <p className="bg-neutral-950 font-[Poppins] text-sm p-2.5 text-neutral-300 hover:text-blue-600 rounded-[5px]">{malumot.Birthday}</p>
+               <button  className="text-[18px] text-red-600"><FaRegTimesCircle /></button>
+            </div>
+            <div className="flex items-center gap-5 bg-neutral-950 px-3 border rounded-sm">
+            <p className="bg-neutral-950 font-[Poppins] text-sm p-2.5 text-neutral-300 hover:text-blue-600 rounded-[5px]">{malumot.Nationality}</p>
+
+               <button  className="text-[18px] text-red-600"><FaRegTimesCircle /></button>
+            </div>
+            <div className="flex items-center gap-5 bg-neutral-950 px-3 border rounded-sm">
+            <p className="bg-neutral-950 font-[Poppins] text-sm p-2.5 text-neutral-300 hover:text-blue-600">{malumot.Languages}</p>
+               <button  className="text-[18px] text-red-600"><FaRegTimesCircle /></button>
+            </div>
+            <div className="flex items-center gap-5 bg-neutral-950 px-3 border rounded-sm">
+            <p className="bg-neutral-950 font-[Poppins] text-sm p-2.5 text-neutral-300 hover:text-blue-600">{malumot.Adress}</p>
+               <button  className="text-[18px] text-red-600"><FaRegTimesCircle /></button>
+            </div>
+            <div className="flex items-center gap-5 bg-neutral-950 px-3 border rounded-sm">
+            <p className="bg-neutral-950 font-[Poppins] text-sm p-2.5 text-neutral-300 hover:text-blue-600">{malumot.phone}</p>
+               <button  className="text-[18px] text-red-600"><FaRegTimesCircle /></button>
+            </div>
+            <div className="flex items-center gap-5 bg-neutral-950 px-3 border rounded-sm">
+            <p className="bg-neutral-950 font-[Poppins] text-sm p-2.5 text-neutral-300 hover:text-blue-600">{malumot.Skype}</p>
+               <button  className="text-[18px] text-red-600"><FaRegTimesCircle /></button>
+            </div>
+          </div>
+        ))}
+        </div>
+      </div>
+      <div className="mt-10">
+      <p className="text-lg font-[Boldonse] ">Settings biography</p>
+        <div>
+        <input
+            placeholder="Enter Name : "
             className="p-2.5 border-2 rounded-sm w-full font-[Poppins] mt-4"
             type="text"
           />
-          {err && <p style={{color : color}} className="py-2 font-[Poppins] text-sm">{err}</p>}
-          <input
-            onClick={handleDelete}
+            <input
             className="p-2.5 border-2 border-green-600 font-[Poppins] rounded-sm w-full mt-4 bg-green-600"
             type="button"
-            value={"Sumbit"}
           />
         </div>
       </div>
