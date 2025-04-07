@@ -3,15 +3,14 @@ import logo from "../Home/Logo/logos.jpg";
 import { Link } from "react-router-dom";
 import { IoLocation } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
 import { MdLocalPostOffice } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
-import { IoLogoYoutube } from "react-icons/io";
 import { SiGithub } from "react-icons/si";
 import { MdFileDownload } from "react-icons/md";
 import { FcAbout } from "react-icons/fc";
 import { IoMdSettings } from "react-icons/io";
+import { BiLogoTelegram } from "react-icons/bi";
 
 
 function About() {
@@ -87,22 +86,22 @@ function About() {
         <div className="bg-[#0d0d0e] h-[45px] w-[45px] flex items-center justify-center rounded-[5px] hover:bg-blue-500 ">
           <a
             className=" text-xl  text-white "
-            href="https://twitter.com/Shakhriyorweb/"
+            href="https://t.me/Shahriyor_frontend" target="_blank"
           >
-            <FaTwitter />
+             <BiLogoTelegram />
           </a>
         </div>
         <div className="bg-[#0d0d0e] h-[45px] w-[45px] flex items-center justify-center rounded-[5px] hover:bg-blue-500 ">
           <a
             className=" text-xl  text-white "
-            href="https://www.facebook.com/profile.php?id=61573956718462/"
+            href="https://www.facebook.com/profile.php?id=61573956718462/" target="_blank"
           >
             <FaFacebookF />
           </a>
         </div>
         <div className="bg-[#0d0d0e] h-[45px] w-[45px] flex items-center justify-center rounded-[5px] hover:bg-blue-500 ">
           <a
-            href="https://www.instagram.com/shakh.jsx/"
+            href="https://www.instagram.com/shakh.jsx/"  target="_blank"
             className=" text-xl  text-white "
           >
             <BsInstagram />
@@ -111,7 +110,7 @@ function About() {
         <div className="bg-[#0d0d0e] h-[45px] w-[45px] flex items-center justify-center rounded-[5px] hover:bg-blue-500 ">
           <a
             className=" text-xl  text-white "
-            href="https://github.com/Shaxriyor-dev"
+            href="https://github.com/Shaxriyor-dev"  target="_blank"
           >
             <SiGithub />
           </a>

@@ -199,6 +199,7 @@ function Admin() {
             type="text"
           />
             <input
+            value={"Sumbit"}
             className="p-2.5 border-2 border-green-600 font-[Poppins] rounded-sm w-full mt-4 bg-green-600"
             type="button"
           />

@@ -24,7 +24,7 @@ function Login() {
     }
   };
   return (
-      <div className="w-[910px]  p-6 inset-ring-1 inset-ring-neutral-900 mt-10 rounded-lg bg-[#121212]">
+      <div className="w-full h-full  p-6 inset-ring-1 inset-ring-neutral-900 mt-10 rounded-lg bg-[#121212]">
         <p className="underline underline-offset-16 decoration-sky-500 text-[20px] font-semibold font-[poppins]">
           Contact Me
         </p>
