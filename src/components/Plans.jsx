@@ -14,7 +14,6 @@ const plans = [
   "My favorite sports are volleyball and football",
 ];
 
-const texts = ["</>", "@", "##", "?", "%", "&&", "$$", "!!!", "(*)", "(+)"];
 
 function Plans() {
   const [hide, setHide] = useState(true);
@@ -33,20 +32,7 @@ function Plans() {
     }
   };
 
-  const [index, setIndex] = useState(0);
-  const [hovering, setHovering] = useState(false);
-
-  useEffect(() => {
-    let interval;
-    if (hovering) {
-      interval = setInterval(() => {
-        setIndex((prev) => (prev + 1) % texts.length);
-      }, 400);
-    } else {
-      setIndex(0);
-    }
-    return () => clearInterval(interval);
-  }, [hovering]);
+  
 
   return (
     <div className="w-full p-6 inset-ring-1 inset-ring-neutral-900 mt-10 rounded-lg bg-[#121212]">
@@ -83,26 +69,7 @@ function Plans() {
             </div>
           ))}
         </div>
-        <motion.button 
-          onMouseEnter={() => setHovering(true)}
-          onMouseLeave={() => setHovering(false)}
-          className="relative flex items-center mt-10 gap-4 overflow-hidden p-3 px-6 bg-neutral-950 text-neutral-300  rounded-lg text-lg font-[Poppins] shadow-l"
-        >          <span className=" text-lg text-[Poppins]">More complete</span>
 
-          <div className="relative ">
-            <motion.span
-              key={index}
-              initial={{ y: "100%", opacity: 0 }}
-              animate={{ y: "0%", opacity: 1 }}
-              exit={{ y: "-100%", opacity: 0 }}
-              transition={{ duration: 0.3 }}
-              className="absolute inset-0 flex items-center text-yellow-400 justify-start"
-            >
-              {texts[index]}
-            </motion.span>
-            <span className="invisible ">{texts[0]}</span>
-          </div>
-        </motion.button>
       </div>
     </div>
   );

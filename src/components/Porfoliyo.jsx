@@ -5,9 +5,12 @@ import { SiNetlify } from "react-icons/si";
 import { FaRegEye } from "react-icons/fa";
 import { useEffect } from "react";
 import { FaEye } from "react-icons/fa";
+import { Commet } from "react-loading-indicators";
 
 function Porfoliyo() {
+
   const [data, setData] = useState([]);
+
 
   useEffect(() => {
     fetch("https://67e68f026530dbd311107b6d.mockapi.io/Data-json")
@@ -15,6 +18,15 @@ function Porfoliyo() {
       .then((data) => setData(data))
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
+
+
+  if(!data || data.length == 0){
+    return(
+       <div className="h-[500px] flex items-center rounded-lg w-full mt-10 bg-[#121212] justify-center">
+          <Commet color="#00dcff" size="large" text="" textColor="#630505" />
+       </div>
+    )
+  }
 
   return (
     <div className="w-full  p-6 inset-ring-1 inset-ring-neutral-900 mt-10 rounded-lg bg-[#121212]">
