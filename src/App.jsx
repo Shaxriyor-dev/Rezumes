@@ -10,6 +10,8 @@ import Admin from "./pages/Admin.jsx";
 import Logins from "../src/components/Login.jsx";
 import Section from '../src/components/Home/Section.jsx';
 import About from '../src/components/Home/About.jsx';
+import Portfolio from "./components/Porfoliyo.jsx"
+import Portfolioadd from "./components/Portfoliadd.jsx"
 import Notfound from '../src/components/Home/NotFound.jsx';
 
 function App() {
@@ -39,8 +41,10 @@ function App() {
                <Route path="/" element={<Home/>}></Route> 
                <Route path="/contend" element={<Login/>}></Route> 
                <Route path="/section" element={<Section/>}></Route> 
-               <Route path="/aboutme" element={<SetAbout/>}></Route> 
                <Route path="/admins" element={<Admin/>}></Route> 
+               <Route path="/aboutme" element={<SetAbout/>}></Route> 
+               <Route path="/portfolio" element={<Portfolio/>}></Route> 
+               <Route path="/portfolio/:id" element={<Portfolioadd/>}></Route> 
                <Route path="/dashboard/login" element={<Logins/>}></Route> 
                <Route path="/getabout" element={<Preject/>}></Route> 
                <Route path="*" element={<Notfound/>}></Route> 

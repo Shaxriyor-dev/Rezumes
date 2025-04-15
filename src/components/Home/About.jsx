@@ -86,7 +86,7 @@ function About() {
         <div className="bg-[#0d0d0e] h-[45px] w-[45px] flex items-center justify-center rounded-[5px] hover:bg-blue-500 ">
           <a
             className=" text-xl  text-white "
-            href="https://t.me/Shahriyor_frontend" target="_blank"
+            href="https://t.me/shahk_web" target="_blank"
           >
              <BiLogoTelegram />
           </a>
