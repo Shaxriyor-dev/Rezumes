@@ -101,7 +101,7 @@ function About() {
         </div>
         <div className="bg-[#0d0d0e] h-[45px] w-[45px] flex items-center justify-center rounded-[5px] hover:bg-blue-500 ">
           <a
-            href="https://www.instagram.com/shakh.jsx/"  target="_blank"
+            href="https://www.instagram.com/shahk.dev/"  target="_blank"
             className=" text-xl  text-white "
           >
             <BsInstagram />
@@ -110,7 +110,7 @@ function About() {
         <div className="bg-[#0d0d0e] h-[45px] w-[45px] flex items-center justify-center rounded-[5px] hover:bg-blue-500 ">
           <a
             className=" text-xl  text-white "
-            href="https://github.com/Shaxriyor-dev"  target="_blank"
+            href="https://github.com/shahk-dev"  target="_blank"
           >
             <SiGithub />
           </a>
